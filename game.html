@@ -182,22 +182,22 @@ Roberto Claudio Castro Dos Santos RM96162
 
     function pressionaTecla(tecla){
 				if(tecla.keyCode == 39  ) {
-					if (x <= 1230) x = x + (30 - (pontuacao * 3)); //aumentar o x tem o efeito de ir para a direita
+					if (x <= 1230) x = x + (50 - (pontuacao * 3)); //aumentar o x tem o efeito de ir para a direita
 					nave = document.getElementById('nave270');
 				}
 
 				if(tecla.keyCode == 37  ) {
-					if (x >= 480) x = x - (30 - (pontuacao * 3)) //diminuir o x tem o efeito de ir para a esquerda
+					if (x >= 480) x = x - (50 - (pontuacao * 3)) //diminuir o x tem o efeito de ir para a esquerda
 					nave = document.getElementById('nave90')
 				}	
 			
 				if(tecla.keyCode == 38  ) {
-					if (y >= 0) y = y - (30 - (pontuacao * 3)) //diminuir y tem o efeito de subida
+					if (y >= 0) y = y - (50 - (pontuacao * 3)) //diminuir y tem o efeito de subida
 					nave = document.getElementById('nave');
 				}
 
 				if(tecla.keyCode == 40  ) {
-					if (y <= 670) y = y + (30 - (pontuacao * 3)) //aumentar y tem o efeito de descer
+					if (y <= 670) y = y + (50 - (pontuacao * 3)) //aumentar y tem o efeito de descer
 					nave = document.getElementById('nave180');
 				}
     }
